@@ -1,0 +1,736 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px 130px;
+    max-width: 1600px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px 130px; */
+}
+
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-title img {
+    width: 48px;
+    height: 50px;
+}
+
+.nav-title h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-menu {
+    margin-top: 20px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.others {
+    text-decoration: none;
+    padding-right: 40px;
+
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.home {
+    text-decoration: none;
+    padding-right: 40px;
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* banner-section */
+
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0px 25px;
+    width: 1197px;
+    margin-top: 20px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.banner-text h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-text>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.banner-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 30px 200px;
+    padding: 15px;
+}
+
+.banner-form input {
+    border-radius: 8px;
+    width: 174px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-right: 22px;
+    border: none;
+}
+
+.banner-form select {
+    border-radius: 8px;
+    border: none;
+    width: 174px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-right: 22px;
+}
+
+.banner button {
+    width: 174px;
+    height: 45px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: white;
+}
+
+/* banner-section */
+
+/* tour-section */
+
+.popular-tour {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.popular-tour-text {
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.popular-tour img {
+    height: 500px;
+    padding-right: 50px;
+}
+
+.popular-tour-text h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.popular-tour-text p,
+ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+    /* 162.5% */
+}
+
+.popular-tour ul {
+    padding-left: 30px;
+}
+
+/* tour-section */
+
+/* photo-gallary section */
+.gallary {
+    margin: 30px;
+}
+
+.photo-gallary-text {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo-gallary-text h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.photo-gallary-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 400px;
+    /* 162.5% */
+}
+
+.galary img {
+    width: 100%;
+    height: 100%;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    margin-bottom: 30px;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 411px 523px 400px;
+    margin-bottom: 30px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 530px 672px;
+}
+
+
+/* photo-gallary section */
+
+
+/* reason-section */
+.reason {
+    padding-left: 30px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 545px;
+    height: 220px;
+    flex-shrink: 0;
+    padding: 30px 0px 0px 40px;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    display: block;
+    margin: 0px auto;
+    margin-top: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-row {
+    display: flex;
+    gap: 30px;
+}
+
+.reason h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.reason-text {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+    padding: 0px 350px;
+    /* 162.5% */
+}
+
+.reason h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.reason p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+/* reason-section */
+
+/* video-section */
+
+.video-container {
+    margin-top: 70px;
+    display: flex;
+    gap: 0px;
+}
+
+.video-text {
+    padding-left: 30px;
+    padding-right: 180px;
+}
+
+.video-text h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 10px;
+    /* 150% */
+}
+
+.video-text p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 15px;
+}
+
+.video-text ul {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 5px;
+    /* 162.5% */
+}
+
+.video iframe {
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.video-text button {
+    margin-top: 20px;
+}
+
+/* video-section */
+
+/* form-section */
+
+.form {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-container {
+    width: 474px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.form-container h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-bottom: 7px;
+}
+
+form input {
+    width: 437px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+form button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 476px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.discount-container{
+    background-image: url(Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.discount {
+    padding: 30px 40px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+}
+
+.discount p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discount h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* form-section */
+
+@media screen and (max-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        margin: 0px;
+        padding: 20px;
+    }
+
+    nav {
+        margin-top: 20px;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    /* banner-section */
+
+    .banner {
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13.png);
+        background-repeat: no-repeat;
+        height: 450px;
+        flex-shrink: 0;
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .banner-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .banner-text h3 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner-text>p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+    }
+
+    .banner-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        width: 210px;
+        /* padding: 15px; */
+        margin-left: 57px;
+    }
+
+    .banner-form input {
+        border-radius: 8px;
+        width: 174px;
+        height: 45px;
+        flex-shrink: 0;
+        margin: 0px;
+        border: none;
+        margin-bottom: 5px;
+    }
+
+    .banner-form select {
+        border-radius: 8px;
+        border: none;
+        width: 174px;
+        height: 45px;
+        flex-shrink: 0;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+
+    .banner button {
+        width: 174px;
+        height: 45px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: none;
+        color: white;
+    }
+
+    /* banner-section */
+    /* tour-section */
+
+    .popular-tour {
+        display: flex;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .popular-tour-text {
+        margin: 0px;
+        width: 335px;
+        padding: 38px 2px 28px 2px;
+
+    }
+
+    .popular-tour img {
+        max-width: 320px;
+        height: 342px;
+        margin: 0px auto;
+        padding: 0px 0px 0px 13px;
+    }
+
+    .popular-tour-text h2 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .popular-tour-text p,
+    ul {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+        /* 171.429% */
+    }
+
+    .popular-tour ul {
+        padding-left: 30px;
+    }
+
+    /* tour-section */
+
+    /* photo-gallary section */
+    .gallary {
+        margin: 10px;
+        padding: 0px;
+    }
+
+    .photo-gallary-text {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .photo-gallary-text h3 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .photo-gallary-text p {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        padding: 0px;
+    }
+
+    .gallary img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .gallary {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-1,
+    .row-2 {
+        margin-bottom: 0px;
+    }
+
+
+    /* photo-gallary section */
+
+
+
+}
