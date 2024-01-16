@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-.orange{
+.orange {
     color: #FF5400;
 }
 
@@ -170,6 +170,10 @@ nav {
     background: #FF5400;
     border: none;
     color: white;
+}
+
+.banner button i {
+    padding-right: 10px;
 }
 
 /* banner-section */
@@ -333,7 +337,7 @@ ul {
     margin-top: 70px;
 }
 
-.reason h6{
+.reason h6 {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
@@ -496,9 +500,12 @@ h4 {
     background: rgba(252, 8, 240, 0.276);
 }
 
-.package-1:hover, .package-2:hover, .package-3:hover{
+.package-1:hover,
+.package-2:hover,
+.package-3:hover {
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
+
 /* package-section */
 
 
